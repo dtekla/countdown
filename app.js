@@ -29,7 +29,6 @@ var x = setInterval(function() {
         clearInterval(x);
         document.getElementById("counting").style.display="none";
         document.getElementById("done").style.display="block";
-        requestAnimationFrame(frame);
 
     }
 }, 1000);
